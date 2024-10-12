@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.content {
+    display: flex;
+}
+
+main {
+    flex: 1; /* This allows main to take up remaining space */
+}
+
+aside {
+    width: 300px; /* Set a fixed width for the aside */
+}
+
+nav li a {
+    color: white;
+    background-color: #7F7B82;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+nav li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+#references {
+    padding: 0.5rem;
+}
+
+#references li {
+    padding: 0.5rem;
+}
+
+header {
+    background-color: #add8e6;
+    padding: 1rem;
+}
+
+header h1 {
+    color: white;
+}
+
+footer {
+    background-color: #5a5a5a;
+    padding: 0.5rem;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+}
+
+aside li a {
+    color: white;
+    text-decoration: none;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside div {
+    padding: 1rem;
+    border: 1px solid #BFACB5;
+}
